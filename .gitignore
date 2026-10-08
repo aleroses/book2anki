@@ -1,0 +1,33 @@
+# Entorno virtual y caché de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Datos del usuario: base SQLite, exportaciones, audios y registros
+data/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Copias de seguridad y temporales
+*.db
+*.db-journal
+*.bak
+*.tsv
+*.log
+!ejemplos/*.tsv
+
+# Editor y sistema
+.vscode/
+.idea/
+.cursor/
+.DS_Store
+Thumbs.db
+EOF
